@@ -9,6 +9,7 @@ mlflow server --backend-store-uri sqlite:///./backend/mlflow.db --host 127.0.0.1
 ```
 python3 train.py
 ```
+- "mlflow run ." needs pyenv with the virtualenv environment manager.
 
 - Start production server
 ```
